@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ConfigService {
-  private apiUrl = 'http://localhost:3000'; // Update with your NestJS API URL
+  private apiUrl = 'http://api.newdev.tech:3001'; // Update with your NestJS API URL
 
   constructor(private http: HttpClient) { }
 
